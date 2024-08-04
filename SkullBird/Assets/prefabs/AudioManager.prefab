@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5753387885954429998
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6567011242355597926}
+  - component: {fileID: 9102524688492157466}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6567011242355597926
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5753387885954429998}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.21420926, y: 0.056755126, z: -0.2839847}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9102524688492157466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5753387885954429998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7096b1c3a33ba4f1385f2f66bce00c9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audios:
+  - name: music
+    audioClip: {fileID: 8300000, guid: 4beac62e3b5f74a089c9a536a9299359, type: 3}
+    loop: 1
+    volume: 0.5
+    pitch: 1
+    audioSource: {fileID: 0}
+  - name: jump1
+    audioClip: {fileID: 8300000, guid: 0c0c64e9e0c3c4229a5480e6617fc0f6, type: 3}
+    loop: 0
+    volume: 0.75
+    pitch: 1
+    audioSource: {fileID: 0}
+  - name: jump2
+    audioClip: {fileID: 8300000, guid: cfd5cbf09ccd641b581fee6484a8b8ac, type: 3}
+    loop: 0
+    volume: 0.75
+    pitch: 1
+    audioSource: {fileID: 0}
+  - name: jump3
+    audioClip: {fileID: 8300000, guid: 89cdd2d3c6c274fd3afe7cbd36eac000, type: 3}
+    loop: 0
+    volume: 0.75
+    pitch: 1
+    audioSource: {fileID: 0}
+  - name: addScore
+    audioClip: {fileID: 8300000, guid: 127666007f457412f83406029bce0036, type: 3}
+    loop: 0
+    volume: 0.75
+    pitch: 1
+    audioSource: {fileID: 0}
+  - name: menuClick
+    audioClip: {fileID: 8300000, guid: fdaf5a9e82d6b41bcb7dd71a79620c97, type: 3}
+    loop: 0
+    volume: 0.75
+    pitch: 1
+    audioSource: {fileID: 0}
+  - name: gameOver
+    audioClip: {fileID: 8300000, guid: 5b2963edef2ee491f81660ccfc7bbe7f, type: 3}
+    loop: 0
+    volume: 0.75
+    pitch: 1
+    audioSource: {fileID: 0}
